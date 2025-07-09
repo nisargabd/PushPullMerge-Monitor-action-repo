@@ -1,0 +1,26 @@
+for frontend -----------
+
+cd webhook-repo/client
+npm install
+npm run dev
+
+
+
+
+for backend -----------
+
+cd webhook-repo
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+export MONGO_URI="mongodb+srv://nisargabhandigadi:OxzKsXWiNVvVKevq@cluster0.hswouxt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  
+python main.py
+
+
+
+  npx localtunnel --port 5000
+
+  your url is: https://modern-days-cover.loca.lt
+
+
+  mongodb+srv://nisargabhandigadi:OxzKsXWiNVvVKevq@cluster0.hswouxt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
